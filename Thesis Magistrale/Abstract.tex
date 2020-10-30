@@ -1,0 +1,36 @@
+\chapter*{Abstract}
+
+
+
+\lhead{\bfseries }
+\rhead{\thepage}
+
+
+Il melanoma è uno dei più pericolosi tipi di cancro della pelle in termini di rapporto tra i casi di morte.
+\newline
+Il tasso di letalità aumenta quando il melanoma viene diagnosticato in ritardo. 
+Tuttavia, è possibile trattare con successo il melanoma se diagnosticato nelle sue fasi iniziali.
+\newline
+Uno dei metodi medici più comuni per la diagnosi del melanoma è l'ABCD (Asimmetria, Irregolarità dei bordi, Colore e Diametro) che prevede la misurazione di quattro caratteristiche dei melanomi.
+\newline
+Il limite di questo metodo è dato dalla soggettività e dall'errore di stima che influisce sull'accuratezza della diagnosi.
+\newline
+Per questa ragione, negli ultimi vent'anni, vengono sempre di più adottati sistemi di Diagnosi Assistita da Computer, basati sulla visione artificiale, per supportare i dermatologi nella diagnosi precoce del melanoma.
+Questi sistemi però sfruttano un insieme di parametri limitati, con un classificatore che valuta il melanoma sostituendosi al dermatologo.
+\newline
+Questo lavoro di tesi propone lo sviluppo di metodologie di analisi efficaci, al fine di produrre un'applicazione mobile per supportare la decisione del medico nella diagnosi del melanoma direttamente nell'ambiente dermatologico.
+\newline
+In una prima fase è stata addestrata una rete neurale convoluzionale (CNN) che si occupa dell'analisi dei nevi al fine di stabilire se il nevo in questione è un melanoma o meno con un valore di output variabile tra 0 e 1 che indica l'accuratezza dell'analisi.
+La rete è stata addestrata grazie al dataset HAM 10000.
+\newline
+In seguito sono state analizzate diverse metodologie al fine di estrarre più informazioni possibili;
+A partire dal frame di un nevo sono stati proposti diversi algoritmi di estrazione delle caratteristiche, in particolare le feature coinvolte riguardano: asimmetria, irregolarità dei bordi, colore, dimensione frattale, distanza del centroide, e la visione del nevo in 2D photometric stereo.
+\newline
+La seconda parte è stata dedicata allo sviluppo implementativo dell'applicazione \textbf{Naevus}.
+L'applicazione è stata creata in realtà aumentata, in questo modo è possibile sovrapporre intorno al nevo le caratteristiche estrapolate da esso e la percentuale di possibilità che il nevo in questione sia un melanoma grazie all'analisi della rete neurale convoluzionale costruita.
+\newline
+L'applicazione utilizza un paradigma client-server, per il client mobile è stato utilizzato il framework Ionic/Angular mentre per il server è stato utilizzato il framework Django/Python.
+\newline
+Infine sono stati valutati diversi scenari di utilizzo dell'applicazione in diversi ambienti, e diverse condizioni di luce in modo da valutare la bontà e la velocità degli algoritmi definiti ed implementati nell'applicazione finale.
+\newline
+

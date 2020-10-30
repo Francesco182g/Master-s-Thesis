@@ -1,0 +1,95 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{Introduzione}{v}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Melanoma}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Come si forma un Melanoma}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Approcci e metodi per il riconoscimento}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Reti Neurali}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Deep Learning}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Reti Neurali Convoluzionali}{8}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Realtà Aumentata}{8}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Lavori correlati}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ricerche correlate}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Applicazioni correlate}{16}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Dataset HAM10000}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduzione al Dataset}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Limiti diagnostici di questo dataset}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Acquisizione immagini dermoscopiche}{26}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Reti Neurali Convoluzionali per la Classificazione dei Melanomi}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Reti Neurali Artificiali}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architettura delle Reti Neurali Convoluzionali}{30}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Classificazione dei Melanomi con Deep Learning}{33}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Estrazione automatica della skin lesion}{35}{subsection.4.3.1}%
+\contentsline {subsubsection}{Hair Removal}{35}{section*.4}%
+\contentsline {subsubsection}{Lesion Segmentation}{36}{section*.5}%
+\contentsline {subsubsection}{Clinical feature segmentation}{37}{section*.6}%
+\contentsline {section}{\numberline {4.4}Addestramento}{39}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Metodologie}{40}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Approccio proposto}{42}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Image Preprocessing}{45}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Image Capture / Continous Tracking}{45}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Crop/Resize Image}{46}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Rimozione Peli}{47}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Image Segmentation}{49}{subsection.5.2.4}%
+\contentsline {subsubsection}{Metodo della soglia di Otsu}{52}{section*.7}%
+\contentsline {subsubsection}{Metodo di Segmentazione Mean Shift}{54}{section*.8}%
+\contentsline {subsection}{\numberline {5.2.5}Estrazione del contorno}{55}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Rimozione del nero}{56}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}Feature Extraction}{58}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Asimmetria/Simmetria}{58}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Bordo}{59}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Colore}{60}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Dimensione Frattale}{61}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Diametro}{62}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}2D Photometric Stereo}{64}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}Classificazione del Melanoma}{68}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Visualizzazione in Realtà Aumentata}{69}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Implementazione}{70}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Architettura dell'applicazione Client-Server}{71}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Sistema Proposto}{74}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Requisiti Funzionali}{74}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Design dell'applicazione client}{75}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}AppModule}{75}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Design dell'Interfaccia}{77}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Interfaccia pre-analisi}{77}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Interfaccia Informazioni}{80}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Interfaccia Analisi}{81}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}Photo Viewer}{82}{subsection.6.3.6}%
+\contentsline {subsection}{\numberline {6.3.7}Logica dell'interfaccia}{83}{subsection.6.3.7}%
+\contentsline {subsubsection}{Camera Preview}{83}{section*.9}%
+\contentsline {subsubsection}{Refresh delle immagini}{84}{section*.10}%
+\contentsline {subsection}{\numberline {6.3.8}Servizi}{86}{subsection.6.3.8}%
+\contentsline {subsubsection}{uploading.service}{86}{section*.11}%
+\contentsline {subsubsection}{apidjango.service}{86}{section*.12}%
+\contentsline {section}{\numberline {6.4}Design dell'applicazione server}{88}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Struttura dell'applicazione}{89}{subsection.6.4.1}%
+\contentsline {subsubsection}{core}{90}{section*.13}%
+\contentsline {subsection}{\numberline {6.4.2}uploadapp}{90}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Analisi del Nevo}{91}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}border}{91}{subsection.6.4.4}%
+\contentsline {subsubsection}{Rimozione Peli}{91}{section*.14}%
+\contentsline {subsubsection}{Segmentazione}{93}{section*.15}%
+\contentsline {subsubsection}{black remove}{94}{section*.16}%
+\contentsline {subsection}{\numberline {6.4.5}asymmetry}{95}{subsection.6.4.5}%
+\contentsline {subsubsection}{asimmetria}{95}{section*.17}%
+\contentsline {subsubsection}{2D photometric stereo}{95}{section*.18}%
+\contentsline {subsection}{\numberline {6.4.6}classification}{96}{subsection.6.4.6}%
+\contentsline {subsection}{\numberline {6.4.7}centroid}{97}{subsection.6.4.7}%
+\contentsline {subsection}{\numberline {6.4.8}color}{97}{subsection.6.4.8}%
+\contentsline {subsection}{\numberline {6.4.9}clearpic}{99}{subsection.6.4.9}%
+\contentsline {subsection}{\numberline {6.4.10}diameter}{100}{subsection.6.4.10}%
+\contentsline {chapter}{\numberline {7}Risultati e Valutazioni}{101}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Analisi dei nevi }{102}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Analisi con luce naturale senza peli }{102}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Analisi con flash e luce artificiale senza peli}{103}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Analisi con flash e luce artificiale con peli}{104}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Analisi nevo < 1cm con flash e luce artificiale}{105}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}Esempi di analisi errata}{106}{subsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.1.6}Effettuare un'analisi ottimale}{107}{subsection.7.1.6}%
+\contentsline {chapter}{\numberline {8}Conclusioni e Sviluppi Futuri}{108}{chapter.8}%
+\contentsline {chapter}{Bibliografia}{111}{chapter*.19}%
+\contentsline {chapter}{Appendice A - Naevus}{122}{appendix*.20}%
+\contentsline {chapter}{Appendice B - Specifiche Tecniche}{123}{appendix*.21}%
+\contentsline {chapter}{Epilogo}{125}{appendix*.22}%
+\contentsline {subsubsection}{Dedica}{126}{section*.23}%

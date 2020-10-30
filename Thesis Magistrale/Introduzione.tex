@@ -1,0 +1,49 @@
+\chapter*{Introduzione}
+\addcontentsline{toc}{chapter}{Introduzione}
+\lhead{\bfseries }
+\rhead{\thepage}
+Il melanoma cutaneo è un tipo di cancro molto aggressivo, la cui incidenza è in aumento in tutto il mondo.
+\newline
+La sua diagnosi può essere effettuata utilizzando una tecnica di imaging chiamata \textbf{dermoscopia}, che amplifica la lesione e consente l'osservazione delle strutture sottocutanee. Tuttavia, l'uso di questa tecnica richiede un lungo addestramento, la diagnosi è spesso soggettiva e difficile da riprodurre. Per questi motivi è necessario sviluppare metodi diagnostici automatici.
+\newline
+Il lavoro svolto in questa tesi mira a sviluppare metodi di analisi delle immagini e riconoscimento di modelli per diagnosticare immagini dermoscopiche;
+\newline
+In particolare, questo lavoro è diviso in due fasi.
+\newline
+Nella prima fase è stata addestrata una rete neurale convoluzionale (CNN) che si occupa dell'analisi dei nevi al fine di stabilire se il nevo in questione è un melanoma o meno con un valore compreso tra 0 e 1 che indica l'accuratezza dell'analisi.
+La rete è stata addestrata con il dataset HAM 10000, che offre 10000 immagini dermatoscopiche (catturate mediate un dermatoscopio digitale) in diversi scenari e con immagini contenti nevi di diverso tipo:
+\begin{itemize}
+\item 6705 nevi melanociti
+\item 1099 lesioni benigne
+\item 1113 melanomi
+\end{itemize}
+Per bilanciare i dati è stata applicata una tecnica di data aumentation sulle immagini dei melanomi.
+\newline
+
+In seguito sono state analizzate diverse metodologie ed algoritmi destinati all'estrazione delle caratteristiche del nevo.
+
+In primo luogo il frame, contenente il nevo, viene sottoposto ad analisi e a preprocessing al fine di garantire la qualità ottimale prima di passare all'estrazione delle caratteristiche e alla classificazione.
+\newline
+Il preprocessing assicura che l'immagine sia ritagliata correttamente, priva di peli e ben segmentata;
+Dopodiché a partire dal frame di un nevo preprocessato vengono estratte le feature, ovvero: asimmetria, irregolarità dei bordi, colore, dimensione frattale, distanza del centroide, e la visione del nevo in 2D photometric stereo.\footnote{Visione del nevo in 3D rapportata in una immagine 2D.}
+\newline
+La seconda parte è stata dedicata allo sviluppo implementativo dell'applicazione in realtà aumentata, il cui nome è Naevus\footnote{Vedi Appendice A}.
+\newline
+L'applicazione utilizza un paradigma client-server con il framework Ionic/Angular per il Client e con Django/Python per il Server; in questo modo è stato possibile affidare al server i calcoli più complessi, la cui precisione è fondamentale al fine di ottenere risultati robusti e soddisfacenti, mentre l'applicazione mobile (lato client) comunica con il server e si occupa di mostrare i dati in AR all'utente.
+\newline
+L'interfaccia dell'applicazione mobile è semplice ed intuitiva in modo da rendere l'utilizzo da parte del medico/dematologo privo di difficoltà.
+\newline
+Infine sono stati valutati diversi scenari di utilizzo dell'applicazione in diversi ambienti, e diverse condizioni di luce in modo da valutare la bontà degli algoritmi definiti ed implementati nell'applicazione finale.
+\newline
+Questo lavoro di tesi è articolato come segue:
+\begin{itemize}
+\item Nel primo capitolo è stato descritto brevemente il background degli argomenti trattati, in modo da fornire al lettore una overview semplificata e sintetica necessaria a comprendere gli argomenti trattati;
+\item Nel secondo capitolo vengono affrontati e descritti i sistemi e le ricerche esistenti nell'ambito dell'analisi dei nevi, l'utilizzo di applicazioni mobile in medicina e le reti neurali in ambito medico;
+\item Nel terzo capitolo è stato descritto il dataset utilizzato per l'addestramento della rete neurale convoluzionale;
+\item Nel quarto capitolo è stata definita la rete neurale convoluzionale utilizzata per l'analisi dei nevi, partendo dal processo di preprocessing delle immagini fino ad arrivare all'addestramento vero e proprio;
+\item Nel quinto capitolo sono state descritte le metodologie utilizzate per l'analisi del nevo ovvero il preprocessing delle immagini, l'estrazione delle feature ABCD, l'utilizzo del classificatore creato, e lo sviluppo di una metodologia per rendere l'applicazione compatibile con la realtà aumentata;
+\item Nel sesto capitolo è stata descritto il design e l'implementazione dell'applicazione finale e le scelte che sono state compiute in fase di progettazione ed in corso d'opera;
+\item Nel settimo capitolo è stata descritta l'applicazione creata con diversi scenari di funzionamento;
+\item ed infine sono state stilate le conclusioni sul lavoro di tesi svolto e gli eventuali progetti e sviluppi futuri del lavoro. 
+\end{itemize}
+Buona Lettura.

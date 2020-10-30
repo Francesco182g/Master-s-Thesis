@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesi.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEabrv.bib
+Database file #2: bib.bib
+Repeated entry---line 76 of file bib.bib
+ : @article{apalla2017epidemiological
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 176 of file bib.bib
+ : @inproceedings{karargyris2012derma
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 504 of file bib.bib
+ : @article{tschandl2018ham10000
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 605 of file bib.bib
+ : @article{maiani2016applicazioni
+ :                                ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in melanomi1
+Warning--empty booktitle in 2
+Warning--empty journal in maiani2016applicazioni
+Warning--empty journal in francese2020
+Warning--empty journal in verma1999photometric
+
+Done.
+You've used 62 entries,
+            4087 wiz_defined-function locations,
+            1690 strings with 30622 characters,
+and the built_in function-call counts, 48200 in all, are:
+= -- 3916
+> -- 1207
+< -- 424
++ -- 654
+- -- 212
+* -- 2300
+:= -- 7145
+add.period$ -- 134
+call.type$ -- 62
+change.case$ -- 56
+chr.to.int$ -- 936
+cite$ -- 67
+duplicate$ -- 3448
+empty$ -- 3786
+format.name$ -- 262
+if$ -- 11269
+int.to.chr$ -- 0
+int.to.str$ -- 62
+missing$ -- 605
+newline$ -- 215
+num.names$ -- 62
+pop$ -- 1373
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 3757
+stack$ -- 0
+substring$ -- 2274
+swap$ -- 2870
+text.length$ -- 112
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 62
+warning$ -- 5
+while$ -- 227
+width$ -- 64
+write$ -- 626
+(There were 4 error messages)

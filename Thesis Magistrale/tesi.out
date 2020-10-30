@@ -1,0 +1,77 @@
+\BOOKMARK [0][-]{chapter*.3}{Introduzione}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Background}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Melanoma}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{Come si forma un Melanoma}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.2}{Approcci e metodi per il riconoscimento}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Reti Neurali}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Deep Learning}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Reti Neurali Convoluzionali}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Realt\340 Aumentata}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Lavori correlati}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Ricerche correlate}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Applicazioni correlate}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Dataset HAM10000}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Introduzione al Dataset}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Limiti diagnostici di questo dataset}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Acquisizione immagini dermoscopiche}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Reti Neurali Convoluzionali per la Classificazione dei Melanomi}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Reti Neurali Artificiali}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Architettura delle Reti Neurali Convoluzionali}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Classificazione dei Melanomi con Deep Learning}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.3.1}{Estrazione automatica della skin lesion}{section.4.3}% 21
+\BOOKMARK [1][-]{section.4.4}{Addestramento}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter.5}{Metodologie}{}% 23
+\BOOKMARK [1][-]{section.5.1}{Approccio proposto}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.2}{Image Preprocessing}{chapter.5}% 25
+\BOOKMARK [2][-]{subsection.5.2.1}{Image Capture / Continous Tracking}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.2}{Crop/Resize Image}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.3}{Rimozione Peli}{section.5.2}% 28
+\BOOKMARK [2][-]{subsection.5.2.4}{Image Segmentation}{section.5.2}% 29
+\BOOKMARK [2][-]{subsection.5.2.5}{Estrazione del contorno}{section.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.2.6}{Rimozione del nero}{section.5.2}% 31
+\BOOKMARK [1][-]{section.5.3}{Feature Extraction}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.3.1}{Asimmetria/Simmetria}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.2}{Bordo}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.3}{Colore}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.4}{Dimensione Frattale}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.5}{Diametro}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.6}{2D Photometric Stereo}{section.5.3}% 38
+\BOOKMARK [1][-]{section.5.4}{Classificazione del Melanoma}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.5}{Visualizzazione in Realt\340 Aumentata}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Implementazione}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Architettura dell'applicazione Client-Server}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Sistema Proposto}{chapter.6}% 43
+\BOOKMARK [2][-]{subsection.6.2.1}{Requisiti Funzionali}{section.6.2}% 44
+\BOOKMARK [1][-]{section.6.3}{Design dell'applicazione client}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.3.1}{AppModule}{section.6.3}% 46
+\BOOKMARK [2][-]{subsection.6.3.2}{Design dell'Interfaccia}{section.6.3}% 47
+\BOOKMARK [2][-]{subsection.6.3.3}{Interfaccia pre-analisi}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.4}{Interfaccia Informazioni}{section.6.3}% 49
+\BOOKMARK [2][-]{subsection.6.3.5}{Interfaccia Analisi}{section.6.3}% 50
+\BOOKMARK [2][-]{subsection.6.3.6}{Photo Viewer}{section.6.3}% 51
+\BOOKMARK [2][-]{subsection.6.3.7}{Logica dell'interfaccia}{section.6.3}% 52
+\BOOKMARK [2][-]{subsection.6.3.8}{Servizi}{section.6.3}% 53
+\BOOKMARK [1][-]{section.6.4}{Design dell'applicazione server}{chapter.6}% 54
+\BOOKMARK [2][-]{subsection.6.4.1}{Struttura dell'applicazione}{section.6.4}% 55
+\BOOKMARK [2][-]{subsection.6.4.2}{uploadapp}{section.6.4}% 56
+\BOOKMARK [2][-]{subsection.6.4.3}{Analisi del Nevo}{section.6.4}% 57
+\BOOKMARK [2][-]{subsection.6.4.4}{border}{section.6.4}% 58
+\BOOKMARK [2][-]{subsection.6.4.5}{asymmetry}{section.6.4}% 59
+\BOOKMARK [2][-]{subsection.6.4.6}{classification}{section.6.4}% 60
+\BOOKMARK [2][-]{subsection.6.4.7}{centroid}{section.6.4}% 61
+\BOOKMARK [2][-]{subsection.6.4.8}{color}{section.6.4}% 62
+\BOOKMARK [2][-]{subsection.6.4.9}{clearpic}{section.6.4}% 63
+\BOOKMARK [2][-]{subsection.6.4.10}{diameter}{section.6.4}% 64
+\BOOKMARK [0][-]{chapter.7}{Risultati e Valutazioni}{}% 65
+\BOOKMARK [1][-]{section.7.1}{Analisi dei nevi }{chapter.7}% 66
+\BOOKMARK [2][-]{subsection.7.1.1}{Analisi con luce naturale senza peli }{section.7.1}% 67
+\BOOKMARK [2][-]{subsection.7.1.2}{Analisi con flash e luce artificiale senza peli}{section.7.1}% 68
+\BOOKMARK [2][-]{subsection.7.1.3}{Analisi con flash e luce artificiale con peli}{section.7.1}% 69
+\BOOKMARK [2][-]{subsection.7.1.4}{Analisi nevo < 1cm con flash e luce artificiale}{section.7.1}% 70
+\BOOKMARK [2][-]{subsection.7.1.5}{Esempi di analisi errata}{section.7.1}% 71
+\BOOKMARK [2][-]{subsection.7.1.6}{Effettuare un'analisi ottimale}{section.7.1}% 72
+\BOOKMARK [0][-]{chapter.8}{Conclusioni e Sviluppi Futuri}{}% 73
+\BOOKMARK [0][-]{chapter*.19}{Bibliografia}{}% 74
+\BOOKMARK [0][-]{appendix*.20}{Appendice A - Naevus}{}% 75
+\BOOKMARK [0][-]{appendix*.21}{Appendice B - Specifiche Tecniche}{}% 76
+\BOOKMARK [0][-]{appendix*.22}{Epilogo}{}% 77
